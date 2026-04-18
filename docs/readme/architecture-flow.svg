@@ -1,0 +1,135 @@
+<svg width="1400" height="680" viewBox="0 0 1400 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="190" y1="40" x2="1180" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1320"/>
+      <stop offset="1" stop-color="#090B11"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="182" y1="94" x2="1134" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58B3FF"/>
+      <stop offset="1" stop-color="#7EE7FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1400" height="680" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#04060A" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="680" rx="32" fill="#05070B"/>
+  <rect x="34" y="34" width="1332" height="612" rx="28" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="62" y="62" width="1276" height="556" rx="22" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <text x="94" y="118" fill="#F3E7D9" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">
+    Pipeline da experiência editorial
+  </text>
+  <text x="94" y="154" fill="#93A0B5" font-family="Segoe UI, Arial, sans-serif" font-size="18">
+    Texto preparado com Pretext, silhueta extraída do canvas 3D e regiões editáveis no design space.
+  </text>
+
+  <g>
+    <rect x="94" y="216" width="250" height="142" rx="20" fill="#0D1524" stroke="#20324E"/>
+    <text x="122" y="260" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      DADOS DE CENA
+    </text>
+    <text x="122" y="302" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">
+      miranha-scenes.ts
+    </text>
+    <text x="122" y="334" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      blocos, textos, métricas,
+    </text>
+    <text x="122" y="357" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      presets de câmera e ordem narrativa
+    </text>
+  </g>
+
+  <g>
+    <rect x="392" y="216" width="282" height="142" rx="20" fill="#111A2A" stroke="#28446A"/>
+    <text x="420" y="260" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      VIEWPORT 3D
+    </text>
+    <text x="420" y="302" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">
+      PlushViewport.tsx
+    </text>
+    <text x="420" y="334" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      Three.js, luzes, câmera,
+    </text>
+    <text x="420" y="357" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      orbit controls e render loop
+    </text>
+  </g>
+
+  <g>
+    <rect x="722" y="216" width="290" height="142" rx="20" fill="#111A2A" stroke="#28446A"/>
+    <text x="750" y="260" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      MOTOR DE LAYOUT
+    </text>
+    <text x="750" y="302" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">
+      miranha-layout.ts
+    </text>
+    <text x="750" y="334" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      slots livres, line breaking,
+    </text>
+    <text x="750" y="357" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      hash de layout e dados de debug
+    </text>
+  </g>
+
+  <g>
+    <rect x="1060" y="216" width="246" height="142" rx="20" fill="#0D1524" stroke="#20324E"/>
+    <text x="1088" y="260" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      OVERLAY DOM
+    </text>
+    <text x="1088" y="302" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">
+      ContourTextOverlay
+    </text>
+    <text x="1088" y="334" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      linhas posicionadas,
+    </text>
+    <text x="1088" y="357" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      drag, resize e debug
+    </text>
+  </g>
+
+  <g>
+    <rect x="222" y="430" width="312" height="132" rx="20" fill="#0E1624" stroke="#20324E"/>
+    <text x="250" y="472" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      DESIGN SPACE
+    </text>
+    <text x="250" y="512" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+      miranha-design-space.ts
+    </text>
+    <text x="250" y="542" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      converte regiões entre palco fixo e viewport real
+    </text>
+  </g>
+
+  <g>
+    <rect x="628" y="430" width="538" height="132" rx="20" fill="#0E1624" stroke="#20324E"/>
+    <text x="656" y="472" fill="#8ED1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.16em">
+      MODO DE EDIÇÃO
+    </text>
+    <text x="656" y="512" fill="#F2E8DC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+      EditorDock + seleção de bloco + persistência em cena
+    </text>
+    <text x="656" y="542" fill="#AAB6C8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+      o usuário move regiões em azul, a geometria volta para o design space e o layout é recalculado
+    </text>
+  </g>
+
+  <g stroke="url(#accent)" stroke-width="4" stroke-linecap="round">
+    <path d="M344 287H392"/>
+    <path d="M674 287H722"/>
+    <path d="M1012 287H1060"/>
+    <path d="M533 430V390"/>
+    <path d="M534 390H868"/>
+    <path d="M868 390V430"/>
+    <path d="M1166 358V390H868"/>
+  </g>
+
+  <g fill="#8ED1FF">
+    <circle cx="392" cy="287" r="6"/>
+    <circle cx="722" cy="287" r="6"/>
+    <circle cx="1060" cy="287" r="6"/>
+    <circle cx="533" cy="430" r="6"/>
+    <circle cx="868" cy="430" r="6"/>
+    <circle cx="868" cy="390" r="6"/>
+  </g>
+</svg>
